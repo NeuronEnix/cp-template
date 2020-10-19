@@ -27,8 +27,8 @@ typedef vector< vi > vvi; typedef vector< vs > vvs;
 #define in_vvi( var_vvi, size_r, size_c ) vvi var_vvi( size_r, vi(size_c) ); foe( var_vi, var_vvi ) foe( each, var_vi ) cin >> each;
 #define in_vvs( var_vvs, size_r, size_c ) vvs var_vvs( size_r, vs(size_c) ); foe( var_vs, var_vvs ) foe( each, var_vs ) cin >> each;
 
-#define deb_v( var_v )   foe( each , var_v  ) cout << each << " "; cout << '\n';
-#define deb_vv( var_vv ) foe( var_v, var_vv ) deb_v( var_v )     ; cout << '\n';
+#define deb_v( var_v )   { foe( each , var_v  ) cout << each << " "; cout << '\n' ; }
+#define deb_vv( var_vv ) { foe( var_v, var_vv ) deb_v( var_v )     ; cout << '\n' ; }
 
 
 int main() {
@@ -38,7 +38,8 @@ FIN;
 
 //----- Code ----- //
     
-
+in_vvi( vec, 5, 5); 
+deb_vv( vec );
 
 
 //----- Code ----- //

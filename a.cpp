@@ -37,9 +37,7 @@ FIN;
 // FOUT;
 
 //----- Code ----- //
-    
-in_vvi( vec, 5, 5); 
-deb_vv( vec );
+
 
 
 //----- Code ----- //

@@ -1,4 +1,12 @@
-const arr = [1, 2, 3, 4, 5, 6]
+/**
+ * The bubble sort algorithm’s average/worst time complexity is O(n²),
+ * as we have to pass through the array as many times as there are pairs in a provided array.
+ * Therefore, when time is a factor, there may be better options.
+ * 
+ * Worst-case time complexity: O(n²).
+ * Average time complexity: O(n²).
+ * Best-case time complexity: O(n), the array is already sorted.
+ */
 
 function bubbleSort(arr) {
   for (let i = 0; i < arr.length; ++i) {
